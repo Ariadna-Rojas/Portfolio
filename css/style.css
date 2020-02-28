@@ -1,0 +1,296 @@
+@font-face {
+    src: url("./fonts/DMSerifDisplay-Regular.ttf");
+    font-family: "AriadnaFont";
+}
+@font-face {
+    src: url("./fonts/Poppins-Bold.ttf");
+    font-family: "Poppins-Bold";
+}
+@font-face {
+    src: url("./fonts/Poppins-Regular.ttf");
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+/* Body */
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 7%;
+    width: 100%;
+}
+
+.links {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-self: center;
+    list-style: none;
+    font-size: 20px;
+    font-family: "Poppins-Bold", sans-serif;
+    color: rgb(48, 48, 48);
+    margin-left: 70%;
+}
+
+.links li {
+    margin-left: 40px;
+    display: inline-flex;
+    width: 60px;
+}
+
+a {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+a:hover {
+    font-size: 20px;
+    color: rgba(204, 14, 14, 0.904);
+  }
+
+/* Navigation bar ends */
+
+/* Homepage */
+.mainhome{
+    background-image: url(./images/home-background/giphy\ white\ waves.gif);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 50px;
+    padding: 16px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "AriadnaFont";
+    color: rgb(48, 48, 48);
+}
+
+.quotes {
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+ /* Homepage ends */
+
+ /* Projects */
+ h2 {
+    font-size: 50px;
+    font-family: "Poppins-Bold", sans-serif;
+    color: rgb(48, 48, 48);
+}
+p {
+    font-size: 20px;
+    font-family: "Poppins-Regular", sans-serif;
+    color: rgb(48, 48, 48);
+
+}
+   /* APPS */
+      /* AMIDA */
+.amida-project {
+    font-family: "Poppins-Regular", sans-serif;
+    background-image: url(./images/App\ 1\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amida-mockup-container {
+    justify-content: center;
+}
+
+.amida-mockup {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.amida-info {
+    width: 50%;
+
+}
+
+.amida-info-title {
+    display: flex;
+    justify-content: left;
+}
+
+.amida-info-body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+/* AMIDA ENDS */
+
+     /* Huertify */
+.huertify-project {
+    font-family: "Poppins-Regular", sans-serif;
+    background-image: url(./images/App\ 2\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+}
+
+.huertify-mockup-container {
+    justify-content: center;
+}
+
+.huertify-mockup {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.huertify-info {
+    width: 50%;
+
+}
+
+.huertify-info-title {
+    display: flex;
+    justify-content: right;
+}
+
+.huertify-info-body {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+/* HUERTIFY ENDS */
+
+/* Violet Tea */
+
+.huertify-project {
+    font-family: "Poppins-Regular", sans-serif;
+    background-image: url(./images/App\ 2\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+}
+
+.huertify-mockup-container {
+    justify-content: center;
+}
+
+.huertify-mockup {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.huertify-info {
+    width: 50%;
+
+}
+
+.huertify-info-title {
+    display: flex;
+    justify-content: right;
+}
+
+.huertify-info-body {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+
+
+ @media only screen and (max-width: 414px) {
+    .links {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        justify-content: flex-end;
+        margin-right: 3%;
+        padding-top: 1%;
+    }
+ }
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .links {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        justify-content: flex-end;
+        margin-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1170px) {
+    .links {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        justify-content: flex-end;
+        margin-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1441px) {
+  
+}
