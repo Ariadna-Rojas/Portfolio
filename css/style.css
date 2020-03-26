@@ -81,12 +81,13 @@ a:hover {
     padding: 1%;
     background-image: url(../css/images/home-background/homebackground.png);
     background-repeat: no-repeat;
-    background-size: 100% 93vh;
+    background-size: 100% 91vh;
     background-position: bottom;
 }
 h1 {
     font-size: 80px;
     font-family: "Poppins-Light";
+    letter-spacing: 0.05em;
     color: rgb(48, 48, 48);
     margin-top: 1%;
     margin-bottom: 0%;
@@ -94,6 +95,7 @@ h1 {
 .ariadna {
     font-size: 80px;
     font-family: "Poppins-Light";
+    letter-spacing: 0.05em;
     color: #F76A6A;
 }
 .quotes {
@@ -103,36 +105,39 @@ h1 {
     flex-direction: column;
     justify-content: left;
 }
+
 .quote-1 {
     font-family: "Poppins-Bold", sans-serif;
     font-size: 30px;
+    letter-spacing: 0.05em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
+
 .quote-2 {
     font-family: "Poppins-Bold", sans-serif;
     font-size: 30px;
+    letter-spacing: 0.05em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
-.quote-3 {
-    font-family: "Poppins-Regular", sans-serif;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-/* social links */ 
-.contact-icons {
+/* ICON LINKS & SCROLL */ 
+.second-home {
+    height: 49vh;
+    width: 100%;
     display: flex;
     align-content: flex-end;
+    place-items: flex-end normal;
 }
-.media-list {
+.contact-icons {
     margin-top: -20px;
     padding-left: 10px;
     display: inline-grid;
@@ -170,20 +175,27 @@ h1 {
 
 /* SOCIAL LINKS END */
 /* Scroll down */
+
 .scroll {
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     height: 40px;
-    margin-top: -45px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    /* margin-top: -45px; */
 }
 .scroll a {
     text-align: center;
     font-family: "Poppins-Regular";
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
     color: white;
     text-decoration: none;
     margin-bottom: -10px;
+    
 }
 .arrow {
     flex-direction: column;
@@ -201,11 +213,7 @@ h1 {
     color: rgb(48, 48, 48);
     padding-right: 4px;
 }
-h3 {
-    font-size: 50px;
-    font-family: "Poppins-Bold", sans-serif;
-    color: rgb(48, 48, 48);
-}
+
 
 p {
     font-size: 20px;
