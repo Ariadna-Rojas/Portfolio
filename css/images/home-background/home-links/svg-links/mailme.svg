@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mail me</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-336.000000, -566.000000)">
+            <g id="mail-me" transform="translate(336.000000, 566.000000)">
+                <g>
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="84" height="84" rx="42"></rect>
+                    <g id="mail" transform="translate(16.734375, 24.609375)" fill="#F76A6A" fill-rule="nonzero">
+                        <polygon id="Path" points="33.46875 17.6179189 50.53125 28.3828125 50.53125 6.3984375"></polygon>
+                        <polygon id="Path" points="0 6.3984375 0 28.3828125 17.0625 17.6179189"></polygon>
+                        <path d="M47.4662455,0 L3.22906701,0 C1.65232758,0 0.401047385,1.18021755 0.1640625,2.69990628 L25.3476562,19.359375 L50.53125,2.69990628 C50.2942651,1.18021755 49.0429849,0 47.4662455,0 Z" id="Path"></path>
+                        <path d="M30.689056,19.5266063 L26.2168189,22.4799357 C25.9513292,22.6542202 25.651073,22.739778 25.3476562,22.739778 C25.0442395,22.739778 24.7439833,22.6542202 24.4784936,22.4799357 L20.0062565,19.5234375 L0.1640625,32.1067757 C0.407428052,33.6119597 1.65270114,34.78125 3.22351515,34.78125 L47.4717973,34.78125 C49.0426114,34.78125 50.2878844,33.6119597 50.53125,32.1067757 L30.689056,19.5266063 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
