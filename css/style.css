@@ -81,7 +81,7 @@ a:hover {
     padding: 1%;
     background-image: url(../css/images/home-background/homebackground.png);
     background-repeat: no-repeat;
-    background-size: 100% 91vh;
+    background-size: 100% 93vh;
     background-position: bottom;
 }
 h1 {
@@ -141,7 +141,7 @@ h1 {
     margin-top: -20px;
     padding-left: 10px;
     display: inline-grid;
-    grid-template-columns: repeat(45, 10px);
+    grid-template-columns: repeat(44, 10px);
     grid-template-rows: repeat(35, 10px);
 }
 .medium {
